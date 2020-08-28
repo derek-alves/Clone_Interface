@@ -1,0 +1,36 @@
+Forma dinamica de representar os valores das propriedades:
+flex: 0 0 320px;
+
+Propriedades separadas em ordem:
+
+flex-grow:0; 
+Define a possibilidade de um componente esticar mais do que o necessário, aumentando conforme a tela do usuário for expandida
+
+(
+1 = estica em todos espaço disponível ;
+ 
+2 = ocupa duas vezes mais espaço que os componentes que estão na mesma linha
+)
+
+
+flex-shrink:0;
+Define a possibilidade do componente diminuir
+(
+0 = Permanecendo com a mesma resolução e  vai ser criado uma barra de rolagem conforme a tela for sendo reduzida
+
+1 = Componente vai ser reduzido conforme a tela do usuário for diminuindo de tamanho 
+)
+
+
+flex-basis:320px;
+Define o tamanho base desse elemento
+
+É definido se esse tamanho se refere a largura ou altura baseado no componente que envolve esse elemento;
+
+flex-direction: Row = Define a largura
+		Colum = Define a altura
+		
+		
+		
+& + div = O estilo vai ser aplicado em toda div que tem um elemento antes (Não vai ser aplicado estilo no primeiro elemento)
+

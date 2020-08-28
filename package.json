@@ -1,0 +1,13 @@
+{
+  "name": "cloneui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private":true,
+  "workspaces":{
+    "packages":[
+      "React/*"
+    ]
+  },
+  "author": "derek-alves <derek.alves@fatec.sp.gov.br>",
+  "license": "MIT"
+}
