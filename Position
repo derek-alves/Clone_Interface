@@ -1,0 +1,9 @@
+1) position:static
+Por padrão os elementos da dom vem com position:static (responsavel por manter o elemento parado)
+
+2) position: Relative (Habilita a movimentação do elementod)
+ - top
+ - down
+ - left
+ - right
+ - z-index
