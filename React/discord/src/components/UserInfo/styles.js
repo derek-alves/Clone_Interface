@@ -84,7 +84,7 @@ width:20px;
 `;
 
 export const SettingsIcon = styled(Settings)`
-width:20px;
+    width:20px;
     height:20px;
 
     color:var(--white);
