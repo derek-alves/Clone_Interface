@@ -19,6 +19,17 @@ const UserList = () => {
 
         <Role>Disponível - 18</Role>
         <UserRow nickname="Derek Enrique" isBot/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
+        <UserRow nickname="Fulano"/>
      </Container>
   );
 } 
