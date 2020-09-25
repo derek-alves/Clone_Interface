@@ -9,7 +9,8 @@ const Profile: React.FC = () => {
           <Main>
             <LeftSide>
                 <ProfileData
-                  username={"derekalves"}
+                  name={"Derek Enrique Alves"}
+                  username={"derek-alves"}
                   avatarUrl={"https://avatars1.githubusercontent.com/u/59737946?v=4"}
                   followers={887}
                   following={7}
