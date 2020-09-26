@@ -23,14 +23,71 @@ export const Flex = styled.div`
         font-weight:300;
       }
     }
+
+    @media(min-width: 768px){
+      flex-direction:column;
+      align-items:flex-start;
+
+      > div{
+        margin-left:0;
+        margin-top:16px;
+      }
+   }  
 `;
 
 export const Avatar = styled.img`
     width: 16%;
     border-radius:50%;
+
+    @media(min-width:768px){
+      width:100%
+      }
 `;
 
-export const Row = styled.div``;
+export const Row = styled.ul`
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:20px 0;
+
+    >li{
+      display:flex;
+      align-items:center;
+    
+
+    >span{
+      font-size:14px;
+      color:var(--gray);
+    }
+    
+    > * {
+      margin-right:5px;
+    }
+
+  }
+`;
+
+
+export const Column = styled.ul`
+    li{
+      display:flex;
+      align-items:center;
+      font-size:14px;
+
+    }
+
+    li + li{
+      margin-top:10px;
+    }
+
+    span{
+      margin-left:5px;
+
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+`;
 
 
 export const iconCss = css`
@@ -40,9 +97,8 @@ export const iconCss = css`
     flex-shrink:0;
 `;
 
-export const PeopleIcon = styled(RiGroupLine)`${iconCss}`;
 
-export const Column = styled.div`${iconCss}`;
+export const PeopleIcon = styled(RiGroupLine)`${iconCss}`;
 
 export const CompanyIcon = styled(RiBuilding4Line)`${iconCss}`;
 
